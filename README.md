@@ -1,2 +1,2 @@
 # Multivariate-RE-EM-tree
-A Regression Tree Method for Longitudinal and Clustered Data with Multivariate Responses
+Multivariate-RE-EM-tree is a regression tree method for longitudinal and clustered Data with multivariate responses.
