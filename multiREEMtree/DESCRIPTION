@@ -1,0 +1,23 @@
+Package: multiREEMtree
+Title: Multivariate REEM tree algorithm for longitudinal data
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Wenbo",
+             family = "Jing",
+             role = "cre",
+             email = "wj2093@nyu.edu"),
+      person(given = "Jeffrey",
+             family = "Simonoff",
+             role = "aut"))
+Description: A Regression Tree Method for Longitudinal and Clustered Data with Multivariate Responses.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: MASS, nlme, Formula, stats, MCMCglmm, expm, utils
+Depends: R (>= 3.5.0), mvpart
+Remotes: cran/mvpart
+NeedsCompilation: no
+Author: Wenbo Jing [cre],
+  Jeffrey Simonoff [aut]
+Maintainer: Wenbo Jing <wj2093@nyu.edu>
