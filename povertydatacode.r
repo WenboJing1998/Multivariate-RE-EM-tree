@@ -114,8 +114,7 @@ poverty.mvpart.1se.fit <- multitree(formula, data = Datapaper2, stand.y = "none"
                                     tree.xv="1se", tree.xval=10, tree.control = rpart.control(cp=0.01, usesurrogate=2, maxsurrogate = 5))
 
 poverty.mvpart.1se.fit
-plot(poverty.mvpart.1se.fit$Tree)
-text(poverty.mvpart.1se.fit$Tree)
+plot(poverty.mvpart.1se.fit)
 summary(poverty.mvpart.1se.fit$Tree)
 
 #
