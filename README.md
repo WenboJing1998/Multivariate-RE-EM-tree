@@ -5,4 +5,5 @@ The multiREEMtree package can be installed in R using the following code.
 
 `if (!require("devtools"))  install.packages("devtools")`\
 `library(devtools)`\
+`install_github("WenboJing1998/Multivariate-RE-EM-tree/mvpart")`\
 `install_github("WenboJing1998/Multivariate-RE-EM-tree/multiREEMtree")`
